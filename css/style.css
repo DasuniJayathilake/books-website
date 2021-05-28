@@ -1,0 +1,435 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Aclonica&family=Acme&family=Advent+Pro&family=Oi&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+header, section{
+    overflow-x: hidden;
+}
+
+:root{
+    --Snigle-font:"Sniglet", cursive;
+    --Akaya:'Akaya Telivigala', cursive;
+    --rubik:"Rubik", cursive;
+    --Patua:"Patua One", cursive;
+    --Lobster:"Lobster", cursive;
+    --light-black:#2e2c2caf;
+    --light-grey:rgba(255,255,255,0.8);
+    --gradient:linear-gradient(rgb(79, 18, 82),rgb(172, 172, 92));
+    --gra:linear-gradient(to bottom right, rgb(117, 44, 119), rgb(85, 82, 82), rgb(230, 112, 184));
+    --abel: 'Abel', sans-serif;
+    --aclonica: 'Aclonica', sans-serif;
+    --acme: 'Acme', sans-serif;
+    --advent: 'Advent Pro', sans-serif;
+    --oi: 'Oi', cursive;
+    --pur:rgb(79, 18, 82);
+}
+
+header a{
+    font-family: var(--Akaya);
+    font-size: 2em;
+    color:whitesmoke;
+}
+
+header{
+    background: var(--light-black);
+    background: var(--gra);
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+header .nav-item:last-child{
+    padding-right: 8em;
+}
+
+header .nav-item{
+    padding: 1em;
+}
+
+header .navbar-brand{
+    padding-left: 8rem;
+    font-size: 2.3em;
+}
+
+header .nav-link:hover{
+    color: black;
+}
+
+header .row .col-md-5{
+    padding: 8vmin 1vmin;
+}
+
+header .row .col-md-7{
+    padding: 15vmin 1vmin;
+    padding-bottom: 27vmin;
+    font-family: var(--Akaya);
+    font-size: 20px;
+    color: white;
+}
+
+header .row .col-md-5 img{
+    width: 70%;
+}
+
+header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 5px;
+}
+
+header .container .col-md-7 h1{
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+header .container .col-md-7 button:hover{
+    color:var(--pur);
+    font-size: 17px;
+    box-shadow: 0 0 18px var(--pur),
+                0 0 18px var(--pur);
+}
+}
+    
+header .navbar-brand:hover{
+    background: white;
+}
+
+/* **************************** section 1 *************************** */
+
+.section-1{
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.3em;
+}
+
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 6vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 28px 45px rgba(0, 0, 0, 0.2);
+    font-family: var(--Akaya);
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+.section-1 .row .col-md-6 .panel p{
+    font-size: 1.2em;
+    color: var(--light-black);
+}
+
+
+/* **************************** section 2 *************************** */
+
+.section-2 .cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(../asserts/candles.jpg);
+    background-position: 0rem -16rem;
+    background-size: 100%;
+    position: relative;
+}
+
+.cover .content{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    padding: 12vmin;
+}
+
+.cover .content h1{
+    font-family: var(--Akaya);
+    font-size: 8vmin;
+    color: white;
+}
+
+.cover .content p{
+    font-family: var(--Akaya);
+    font-size: 3vmin;
+    color: white;
+}
+
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    height: 11rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 1px 2px 40px 0px rgb(79, 18, 82);
+}
+
+.numbers{
+    margin-top: -15vmin;
+    font-family: var(--Akaya);
+}
+
+.numbers .rect h1{
+    font-size: 5rem;
+    color: rgb(173, 41, 180);
+}
+
+.numbers .rect p{
+    font-size: 3vmin;
+}
+
+.purchase h1{
+    padding-top: 15vmin;
+    padding-bottom: 0em;
+    font-family: var(--Akaya);
+    font-size: 3.5em;
+}
+
+.purchase p{
+    color: var(--light-black);
+    font-size: 1.3em;
+    padding-bottom: 3em;
+    font-family: var(--Akaya);
+}
+
+.cards .card{
+    width: 16rem;
+    margin: 8vmin;
+    border-radius: 8px;
+    box-shadow: 1px 2px 12px 0px var(--light-black);
+}
+
+.cards div{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Akaya);
+    text-align: center;
+}
+
+.cards .card-title{
+    background-color: #d7ccc8;
+    padding: 1.2rem 1.2rem;
+    font-size: 5vmin;
+}
+
+.cards .card-text{
+    padding: 1.8rem 1.8rem;
+    color: var(--light-black);
+    font-size: 2.8vmin;
+}
+
+.cards .pricing h1{
+    text-align: center;
+    padding: 33px 0px;
+    font-weight: bold;
+}
+
+.card-body .pricing{
+    background: #efebe9;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    padding-bottom: 30px;
+}
+
+/* *************************** section 3 *********************** */
+
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--gra);
+}
+
+.section-3 .row{
+    color: white;
+    font-family: var(--Akaya);
+}
+
+.section-3 .row h1{
+    font-size: 3em;
+    padding: 1.5em 1em 0.6em 1em ;
+}
+
+.section-3 .row p{
+    font-size: 1.3em;
+    padding: 0em 1em;
+    padding-bottom: 1.8em;
+}
+
+.section-3 .desktop{
+    background: white;
+    color: #263238;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+    box-shadow: 1px 2px 40px 0px rgb(79, 18, 82);
+}
+
+.section-3 .desktop:hover{
+    box-shadow: 1px 2px 30px 0px black;
+}
+
+/* *************************** section 4 *********************** */
+
+.section-4{
+    font-family: var(--Akaya);
+}
+
+.section-4 h1{
+    padding-top: 2em;
+    font-size: 3em;
+}
+.section-4 p{
+    padding-top: 1em;
+    font-size: 1.2em;
+    color: var(--light-black);
+    padding-bottom: 3em;
+}
+
+
+.section-4 .team .card{
+    margin: 30px;
+    border: none;
+    box-shadow: 1px 2px 10px 0px black;
+    border-radius: 8px;
+}
+
+.section-4 .team .card img{
+    padding: 10px 0px 0px 0px;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+}
+
+.section-4 .team .card .card-text{
+    padding-top: 0;
+    padding-bottom: 0em;
+}
+
+.section-4 .team .card .text-secondary{
+    font-size: 2em;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+.section-4 .team .card p{
+    padding: 0em 0em 10px 0em;
+}
+
+.section-4 .team .carousel-item .card{
+    box-shadow: 1px 2px 10px 0px black;
+}
+
+.section-4 .team .carousel-item .card img{
+    padding-top: 30px;
+}
+
+.section-4 .team .carousel-item .card{
+    padding-bottom: 30px;
+    top: -20px;
+  
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+/* *************************** footer ************************ */
+
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+    font-family: var(--Akaya);
+}
+
+footer p span{
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+footer input{
+    border: none !important;
+    width: 80% !important;
+}
+
+footer input::placeholder{
+    color: white !important;
+}
+
+footer .input-group .input-group-text{
+    background: linear-gradient(to bottom right, #e72c83, #a742c6);
+    border: none;
+    border-radius: 3px !important;
+}
+
+footer .column i{
+    padding: 0.5em 0.5em;
+    font-size: 17px;     
+	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+

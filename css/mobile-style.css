@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px){
+
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    /* header .row .col-md-5{
+        padding: 8vmin 1vmin;
+    } */
+
+    header .row .col-md-7{
+        padding: 15vmin 1vmin;
+        padding-bottom: 8vmin;
+    }
+
+    .section-2 .cover{
+        background-position: 0vmin -10vmin;
+    }
+
+    .cover .content{
+        padding: 6vmin;
+    }
+
+    .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1{
+        font-size: 3rem;
+    }    
+
+    .section-3{
+        height: inherit;
+        padding: 10vmin !important;
+    }
+}
